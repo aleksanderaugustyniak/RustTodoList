@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "description": "mleko\r\n",
+      "completed": false
+    },
+    {
+      "description": "kaszka\r\n",
+      "completed": true
+    },
+    {
+      "description": "gruszki\r\n",
+      "completed": false
+    },
+    {
+      "description": "kawa\r\n",
+      "completed": true
+    },
+    {
+      "description": "banany\r\n",
+      "completed": true
+    },
+    {
+      "description": "chleb\r\n",
+      "completed": false
+    }
+  ]
+}
