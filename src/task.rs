@@ -34,3 +34,8 @@ impl Task
         self.completed = !self.completed;
     }
 }
+
+#[cfg(test)]
+mod tests {
+    include!("../ut/task_test.rs");
+}
