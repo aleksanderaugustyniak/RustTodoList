@@ -1,9 +1,8 @@
-mod task;
-mod list;
-mod cli_manager;
+mod todo;
+mod cli;
 
 fn main() 
 {
-    let mut cli = cli_manager::CliManager::new();
+    let mut cli = crate::cli::cli_manager::CliManager::new();
     cli.run();
 }

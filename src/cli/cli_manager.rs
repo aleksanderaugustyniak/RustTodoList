@@ -1,4 +1,4 @@
-use crate::list::List;
+use crate::todo::list::List;
 
 pub enum CliState 
 {
@@ -78,7 +78,7 @@ impl CliManager
 
     fn handle_adding(&mut self, input: &String)
     {
-        self.list.add(input.to_string());
+        self.list.add(&input.to_string());
     }
     
     fn handle_action_with_index(&mut self, input: &String, action: impl Fn(&mut CliManager, usize) -> ())

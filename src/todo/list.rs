@@ -1,4 +1,4 @@
-use crate::task::Task;
+use crate::todo::task::Task;
 use serde::Serialize;
 use serde::Deserialize;
 
@@ -18,9 +18,9 @@ impl List
         }
     }
     
-    pub fn add(&mut self, description: String)
+    pub fn add(&mut self, description: &String)
     {
-        self.tasks.push(Task::new(description));
+        self.tasks.push(Task::new((&description).to_string()));
     }
 
     pub fn complete(&mut self, index: usize)

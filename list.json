@@ -23,6 +23,10 @@
     {
       "description": "chleb\r\n",
       "completed": false
+    },
+    {
+      "description": "kakao\r\n",
+      "completed": true
     }
   ]
 }
